@@ -1,0 +1,5 @@
+$('#login').click(function () {
+    var loginGrtr = G$('John', 'Doe');
+    $('#logindiv').hide();
+    loginGrtr.setLang($('#lang').val()).htmlGreeting('#greeting', true).log();
+})
